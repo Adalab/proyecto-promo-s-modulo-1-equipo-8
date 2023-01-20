@@ -1,0 +1,19 @@
+.footer {
+    border: 1px solid #b8b8b9;
+    width: 320px;
+    height: 320px;
+    display: flex;
+}
+
+.h4footer {
+    font-family: OpenSans, Regular;  /*la fuente está mal pero es la que pone en el styleguide*/
+    
+    font-size: 14px;
+    color: #b8b8b9;
+}
+.navfooter {
+    font-family: OpenSans, Regular; /*la fuente está mal pero es la que pone en el styleguide*/
+    font-size: 16px;
+    color: #54585a;
+
+}
