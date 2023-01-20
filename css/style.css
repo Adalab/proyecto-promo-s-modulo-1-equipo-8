@@ -1,0 +1,46 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+:root {
+
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.container1 {
+    background-color: #099d8d;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    letter-spacing: 1rem;
+    padding: 1.5rem 8rem;
+}
+
+.nav {
+    width: 100%;
+    background-color: #14d9c4;
+    height: 4rem;
+    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}

@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestra página web</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <h1>KISI</h1>
-        <nav class="nav">
-            <ul>
-                <li class="lista">EQUIPO</li>
-                <li class="lista">QUIENES SOMOS</li>
-                <li class="lista">CONTACTO</li>
-            </ul>
-        </nav>
+        <div class="container1">
+            <h1>KISI</h1>
+        </div>   
+            <nav class="nav">
+                <ul>
+                    <li class="lista"><a href="#equipo" class="selected">EQUIPO</a></li>
+                    <li class="lista"><a href="#quienes-somos" class="selected">QUIENES SOMOS</a></li>
+                    <li class="lista"><a href="#contacto" class="selected">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <hero>
@@ -30,7 +34,7 @@
 
         <div class="section1">
        
-         <section>
+         <section class="equipo" id="equipo">
             <h2>EQUIPO</h2>
 
                 <article>
@@ -59,7 +63,7 @@
        
         <div class="section3">
 
-            <section>
+            <section class="quienes-somos" id="quienes-somos">
 
                 <h2 class="tittle">QUIÉNES SOMOS</h2>
     ​
