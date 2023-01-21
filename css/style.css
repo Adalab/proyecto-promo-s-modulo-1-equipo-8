@@ -1,3 +1,13 @@
+@font-face {
+    font-family: OpenSans-Semibold;
+    src:url(../fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: OpenSans;
+    src:url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf)
+}
+
 .footer {
     border: 1px solid #b8b8b9;
     width: 320px;
@@ -11,21 +21,13 @@
 }
 
 .h4footer {
-    font-family: OpenSans, Regular;  /*la fuente está mal pero es la que pone en el styleguide*/
+    font-family: OpenSans;  
     
     font-size: 14px;
     color: #b8b8b9;
 }
+
 .navfooter {
-    font-family: OpenSans, Regular; /*la fuente está mal pero es la que pone en el styleguide*/
-    font-size: 16px;
-    color: #54585a;
-
-    
-
-}
-
-.navfooter2 {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -45,4 +47,6 @@
 .enlace {
     color: #54585a;
     text-decoration: none;
+    font-size: 14px;
+    font-family: OpenSans-Semibold;
 }
