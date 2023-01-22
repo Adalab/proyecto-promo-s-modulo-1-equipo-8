@@ -1,12 +1,5 @@
-@font-face {
-    font-family: OpenSans-Semibold;
-    src:url(../fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf)
-}
 
-@font-face {
-    font-family: OpenSans;
-    src:url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf)
-}
+
 
 .footer {
     border: 1px solid #b8b8b9;
@@ -15,15 +8,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     
    
 }
 
 .h4footer {
-    font-family: OpenSans;  
+    font-family:'Open Sans', sans-serif; 
     font-size: 14px;
     color: #b8b8b9;
+    margin-bottom: 20px;
 }
 
 .navfooter {
@@ -34,7 +28,9 @@
 }
 
 .imagefooter {
-    width: 30%;
+    width: 115.9px;
+    margin-top: 30px;
+    height: 45px;
     
 }
 
@@ -47,5 +43,6 @@
     color: #54585a;
     text-decoration: none;
     font-size: 14px;
-    font-family: OpenSans-Semibold;
+    font-family:'Open Sans', sans-serif; 
+    font-weight: 600;
 }
