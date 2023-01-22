@@ -6,6 +6,7 @@ html {
 
 
 .section3 .tittle{
+
 font-size: 2.4rem;
 color: #099d8d;
 display: flex;
@@ -22,10 +23,11 @@ align-items: center;
 }
 
 .nav .list {
+
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    flex-direction: row-reverse;
+    
     font-size: 1.4rem;
     
 }
@@ -35,9 +37,17 @@ i {
     
 }
 
-.img {
-    border: #b8b8b9;
+.box {
     display: flex;
-    flex-direction: initial;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+
+    
 
