@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+.section1 {
+    background-color: white;
+    width: 100%;
+    padding: 1.875rem 0.938rem 0;
+    
+
+}
+
+.equipo {
+    color: #14d9c4;
+    font-size: 1.5rem;
+    font-weight:500;
+    text-align: center;
+    margin: 0 6.219rem 0.938rem 6.344rem
+
+}
+
+.contenido_equipo {
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0.938rem 0 0;
+
+}
+
+.p2_contenido_euipo {
+    padding: 0.5rem 0;
+}
+
+.rectangle {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin: 0rem 15rem;
+    transform: rotate(45deg);
+    background-color: white;
+    position:relative;
+    top: 0.5rem;
+
+
+}
+
+.section2 {
+    background-color: #b8b8b9;
+    /* opacity: 0.2; */
+    width: 100%;
+    padding: 1.875rem 0.938rem 2.813rem; 
+
+}
+
+.fortaleza {
+    width: 100%;
+    color: #099d8d;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;;
+    font-size: 1.375rem;
+    text-align: center;
+    font-weight:500;
+}
+
+
+.contenido_fortalezas {
+    color: #54585a;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+}
+
+.p3_contenido_fortaleza {
+    padding: 0.5rem 0;
+}
+.debilidades {
+    width: 100%;
+    color: #099d8d;
+    font-stretch: normal;
+    margin: 1.875rem 0 0;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;
+    font-size: 1.375rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.contenido_debilidades {
+    color: #54585a;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+}
+
+.p4_contenido_debilidades {
+    padding: 0.5rem 0;
+}
+
+
