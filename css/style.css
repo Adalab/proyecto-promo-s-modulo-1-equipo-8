@@ -6,7 +6,6 @@
 
 :root {
     font-size: 62.5%;
-    --font-h: 'Rubik', sans-serif;
 }
 
 header {
@@ -14,7 +13,6 @@ header {
     color: white;
     justify-content: center;
     text-align: center;
-
 }
 
 .container {
@@ -22,23 +20,17 @@ header {
     background-color: #099d8d;
     height: 6rem;
     padding: 1.5rem 8rem;
-    justify-content: center;
-    text-align: center;
-    opacity: 0.95;
 }
 
 .h1 {
     font-family: Rubik;
-    font-size: 1.6rem;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.88;
-    letter-spacing: 1;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
     color: var(--white);
+    letter-spacing: 1rem;
 }
 
-.nav {
+.nav-header {
     width: 100%;
     background-color: #14d9c4;
     height: 4.5rem;
@@ -54,28 +46,14 @@ header {
     list-style-type: none;
     margin-left: 1rem;
     margin-right: 1rem;
-    text-decoration: none;
-    opacity: 0.9;
-
 }
 
-/*.selected {
-    width: 100%;
-    color: white;
-    font-size: 1.5rem;
-    letter-spacing: normal;
-    font-weight: 500;
-    list-style-type: none;
-}*/
-
 .selected {
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 60rem;
     font-size: 1.5rem;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 2.14;
-    letter-spacing: normal;
     text-align: right;
-    color: white
+    color: white;
+    text-decoration-line: none;
 }
