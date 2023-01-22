@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+    
+}
+
+
+
+.section3 .tittle{
+font-size: 2.4rem;
+color: #099d8d;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.section3 .name{
+    font-size: 2rem;
+}
+
+.p {
+    color: #54585a;
+}
+
