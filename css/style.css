@@ -21,3 +21,16 @@ align-items: center;
     color: #54585a;
 }
 
+.nav .list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 1.4rem;
+    
+}
+
+i {
+    color: #099d8d;
+}
+
