@@ -1,5 +1,52 @@
+header {
+    width: 100%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
 
+.container {
+    width: 100%;
+    background-color: #099d8d;
+    height: 6rem;
+    padding: 1.5rem 8rem;
+}
 
+.h1 {
+    font-family: Rubik;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: var(--white);
+    letter-spacing: 1rem;
+}
+
+.nav-header {
+    width: 100%;
+    background-color: #14d9c4;
+    height: 4.5rem;
+    text-align: end;
+    padding: 0.8rem 1.7rem 0.7rem 1.6rem;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.selected {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 60rem;
+    font-size: 1.5rem;
+    line-height: 2.14;
+    text-align: right;
+    color: white;
+    text-decoration-line: none;
+}
 
 .footer {
     border: 1px solid #b8b8b9;
@@ -9,12 +56,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-   
+
+
 }
 
 .h4footer {
-    font-family:'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #b8b8b9;
     margin-bottom: 20px;
@@ -31,18 +78,18 @@
     width: 115.9px;
     margin-top: 30px;
     height: 45px;
-    
+
 }
 
 .imagefooter2 {
     width: 100%;
-   
+
 }
 
 .enlace {
     color: #54585a;
     text-decoration: none;
     font-size: 14px;
-    font-family:'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
