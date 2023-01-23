@@ -1,13 +1,3 @@
-* {
-    padding: 0rem;
-    margin: 0rem;
-    box-sizing: border-box;
-}
-
-:root {
-    font-size: 62.5%;
-}
-
 header {
     width: 100%;
     color: white;
