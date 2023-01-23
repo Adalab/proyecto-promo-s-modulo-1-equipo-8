@@ -27,8 +27,14 @@ align-items: center;
     list-style: none;
     display: flex;
     flex-direction: row-reverse;
-    
     font-size: 1.4rem;
+    
+}
+
+.list ::after{
+    content: "·";
+    color: #099d8d;
+    text-decoration-line: none;
     
 }
 
