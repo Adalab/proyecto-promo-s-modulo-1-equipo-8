@@ -224,9 +224,9 @@ i {
 
 
 .footer {
-    border: 1px solid #b8b8b9;
-    width: 320px;
-    height: 250px;
+    border: 0.1rem solid #b8b8b9;
+    width: 32rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,9 +237,9 @@ i {
 
 .h4footer {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #b8b8b9;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .navfooter {
@@ -250,9 +250,9 @@ i {
 }
 
 .imagefooter {
-    width: 115.9px;
-    margin-top: 30px;
-    height: 45px;
+    width: 11.6rem;
+    margin-top: 3rem;
+    height: 4.5rem;
 
 }
 
@@ -264,7 +264,7 @@ i {
 .enlace {
     color: #54585a;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
