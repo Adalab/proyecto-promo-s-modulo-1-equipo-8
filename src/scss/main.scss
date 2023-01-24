@@ -23,7 +23,7 @@ header {
     width: 100%;
     height: 20rem;
     background-image: url(../images/hero.jpg);
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -216,18 +216,20 @@ i {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
 .box_a {
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
-div.box, div.box_a {
-    margin: 2rem;
-}
+
 
 
 
