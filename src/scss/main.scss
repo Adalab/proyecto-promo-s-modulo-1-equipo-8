@@ -176,7 +176,7 @@ html {
 }
 .section3 .tittle {
 
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     color: #099d8d;
     display: flex;
     flex-direction: column;
@@ -184,7 +184,7 @@ html {
 }
 
 .section3 .name {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .p {
@@ -216,6 +216,7 @@ i {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .box_a {
@@ -223,6 +224,12 @@ i {
     flex-direction: row-reverse;
     
 }
+
+div.box, div.box_a {
+    margin: 2rem;
+}
+
+
 
 .description {
     display: flex;
