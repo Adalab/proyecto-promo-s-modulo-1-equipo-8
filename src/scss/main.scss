@@ -171,7 +171,9 @@ html {
 }
 
 
-
+.section3 {
+    font-family: 'Open Sans', sans-serif;
+}
 .section3 .tittle {
 
     font-size: 2.4rem;
@@ -214,6 +216,12 @@ i {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.box_a {
+    display: flex;
+    flex-direction: row-reverse;
+    
 }
 
 .description {
