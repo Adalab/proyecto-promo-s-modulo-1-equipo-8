@@ -70,6 +70,31 @@ header {
     text-decoration-line: none;
 }
 
+.hero {
+    width: 100%;
+    height: 42.1rem;
+    /*los hero tienen esta altura en 320 y 768*/
+    background-image: url(../images/hero.jpg);
+    /*si encontramos la imagen con fondo transparente quedaría perfecto*/
+    background-position: center;
+    /*quito cover, que las DevTools dicen que no existe*/
+    background-repeat: no-repeat;
+    background-color: lightgoldenrodyellow;
+    /*pongo un fondo para que se vea el efecto superpuesto*/
+
+
+}
+
+​ .div_hero {
+    /*defino la clase, que no estaba aunque sí estaba en HTML*/
+    width: 75%;
+    display: inline-block;
+    color: black;
+    font-size: 4rem;
+    background-color: white;
+    vertical-align: bottom;
+    margin-top: 40rem;
+}
 
 .section1 {
     background-color: white;
@@ -118,6 +143,7 @@ header {
 .section2 {
     width: 100%;
     padding: 1.875rem 0.938rem 2.813rem;
+
 
 }
 
@@ -200,7 +226,7 @@ header {
 
 }
 
-.list ::after {
+.list .fa-brands::after {
     content: "·";
     color: #099d8d;
     text-decoration-line: none;
