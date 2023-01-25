@@ -1,0 +1,79 @@
+header {
+    width: 100%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+.container {
+    width: 100%;
+    background-color: #099d8d;
+    height: 6rem;
+    padding: 1.5rem 8rem;
+    padding-top: 1.5rem;
+}
+
+.h1 {
+    font-family: Rubik;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: var(--white);
+    letter-spacing: 1rem;
+}
+
+.nav-header {
+    width: 100%;
+    background-color: #14d9c4;
+    height: 4.5rem;
+    text-align: end;
+    padding: 0.8rem 1.7rem 0.7rem 1.6rem;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.selected {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 60rem;
+    font-size: 1.5rem;
+    line-height: 2.14;
+    text-align: right;
+    color: white;
+    text-decoration-line: none;
+}
+
+.hero {
+    width: 100%;
+    height: 42.1rem;
+    /*los hero tienen esta altura en 320 y 768*/
+    background-image: url(../images/hero.jpg);
+    /*si encontramos la imagen con fondo transparente quedaría perfecto*/
+    background-position: center;
+    /*quito cover, que las DevTools dicen que no existe*/
+    background-repeat: no-repeat;
+    background-color: lightgoldenrodyellow;
+    /*pongo un fondo para que se vea el efecto superpuesto*/
+
+
+}
+
+​ .div_hero {
+    /*defino la clase, que no estaba aunque sí estaba en HTML*/
+    width: 75%;
+    display: inline-block;
+    color: black;
+    font-size: 4rem;
+    background-color: white;
+    vertical-align: bottom;
+    margin-top: 40rem;
+}

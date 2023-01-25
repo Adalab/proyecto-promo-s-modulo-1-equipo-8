@@ -1,0 +1,45 @@
+.footer {
+    border: 0.1rem solid #b8b8b9;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.h4footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #b8b8b9;
+    margin-bottom: 2rem;
+}
+
+.navfooter {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagefooter {
+    width: 11.6rem;
+    margin-top: 3rem;
+    height: 4.5rem;
+
+}
+
+.imagefooter2 {
+    width: 100%;
+
+}
+
+.enlace {
+    color: #54585a;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
