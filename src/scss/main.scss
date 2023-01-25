@@ -15,7 +15,7 @@ html {
 header {
     width: 100%;
     color: white;
-    justify-content: center;
+    display: inline-block;
     text-align: center;
 }
 
@@ -32,6 +32,7 @@ header {
     background-color: #099d8d;
     height: 6rem;
     padding: 1.5rem 8rem;
+    padding-top: 1.5rem;
 }
 
 .h1 {
