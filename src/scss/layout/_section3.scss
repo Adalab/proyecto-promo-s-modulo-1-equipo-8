@@ -1,6 +1,7 @@
 .section3 {
-    margin: 10%;
+    margin: 8%;
     font-family: 'Open Sans', sans-serif;
+    border: solid 3rem #b8b8b9;
     
 }
 
@@ -11,25 +12,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Rubik;
+    padding-top: 3rem;
+
 }
 .section3 .name {
     font-size: 2rem;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
 
 .p {
-    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align:justify;
+    justify-content: center;
     font-size: 1.6rem;
     color: #54585a;
+    line-height: 2rem;
 }
 
 
 
 i {color: #099d8d;
 text-align: center;
-font-size: 1.6rem;}
+font-size: 1.6rem;
+margin-top: 1.5rem;
+padding-bottom: 1rem;}
 
 
 .ul{
@@ -42,6 +54,13 @@ font-size: 1.6rem;}
     
 }
 
+figcaption {
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
 .images {
 
     
@@ -49,6 +68,8 @@ font-size: 1.6rem;}
     border: solid 0.2rem #54585a;
 
 }
+
+
 
 
 @media (min-width: 768px)
