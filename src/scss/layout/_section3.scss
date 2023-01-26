@@ -71,25 +71,49 @@ figcaption {
 
 
 
-
 @media (min-width: 768px)
 
 {
+.section3 {
+    margin: 8%;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
 
+    }
 
+   .section3 .name {
+            
+            text-align: start;
+            padding-bottom: 0;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            
+            
+        }
+    #a {
+        text-align: end;
+    }
+   
+    
+.p {padding-top: none;}
 
 .box {
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
+    align-items: start;
     margin-top: 2rem;
     margin-bottom: 2rem;
 
 }
 
 .box_a {
+
     display: flex;
     flex-direction: row-reverse;
+    
+    align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 
@@ -97,8 +121,40 @@ figcaption {
 
 
 .description {
+
     display: flex;
     flex-direction: column;
+    text-align: start;
+}
+
+
+
+.images {
+    width: 100%;
+    padding-top: auto;
+    padding-bottom: auto;
+    
+   
+}
+
+.ul {
+    justify-content: start;
+    padding: 1rem;
+}
+
+.figcaption_b {
+    justify-content: center;
+    margin: auto;
+    text-align: start;
+    width: fit-content;
+   
+}
+
+.figcaption_a {
+    justify-content: center;
+    text-align: end;
+    width: fit-content;
+    margin: auto;
 }
 
 }
