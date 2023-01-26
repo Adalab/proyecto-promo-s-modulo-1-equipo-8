@@ -4,40 +4,50 @@
     padding: 1.875rem 0.938rem 0;
 
 
+
 }
 
 .equipo {
+    font-family: Rubik;
     color: #14d9c4;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 2.2rem;
+    font-weight:bolder;
     text-align: center;
-    margin: 0 6.219rem 0.938rem 6.344rem
+    
+
 }
 
 .contenido_equipo {
-    font-size: 1rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
+    font-family: OpenSans;
+    font-size: 1.4rem;
+    color: #54585a;
+    font-weight:100;
     line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
-    margin: 0.938rem 0 0;
+    margin: 2rem 3.5rem 0 3.5rem;
+
 
 }
 
-.p2_contenido_euipo {
-    padding: 0.5rem 0;
+.p2_contenido_equipo {
+    font-family: OpenSans;
+    font-size: 1.4rem;
+    color: #54585a;
+    font-weight: 100;
+    line-height: 1.5;
+    text-align: center;
+    margin: 2rem 3.5rem 0 3.5rem;
 }
+    
 
 .rectangle {
-    width: 1.875rem;
-    height: 1.875rem;
+    width: 3rem;
+    height: 3rem;
     margin: auto;
     transform: rotate(45deg);
     background-color: white;
     position: relative;
-    top: 1rem;
+    top: 1.5rem;
 
 
 }
@@ -45,28 +55,32 @@
 .section2 {
     width: 100%;
     padding: 1.875rem 0.938rem 2.813rem;
-    background-color: rgba(184, 184, 185, 0.2);
+    background-color: rgba(184, 184, 185, 0.4);
 
 }
 
 .fortaleza {
+    font-family: Rubik;
     width: 100%;
     color: #099d8d;
     font-stretch: normal;
     font-style: normal;
     line-height: 2.05;
     letter-spacing: normal;
-    font-size: 1.375rem;
+    font-size: 2rem;
     text-align: center;
-    font-weight: 500;
+    font-weight:bolder;
 }
 
 
 .contenido_fortalezas {
+    font-family: OpenSans;
+    font-size: 1.4rem;
     color: #54585a;
+    font-weight: 100;
+    line-height: 1.5;
     text-align: center;
-    font-size: 1rem;
-    margin: 0.5rem 0 0;
+    margin: 2rem 3.5rem 0 3.5rem;
 }
 
 .p3_contenido_fortaleza {
@@ -74,26 +88,51 @@
 }
 
 .debilidades {
+    font-family: Rubik;
     width: 100%;
     color: #099d8d;
     font-stretch: normal;
-    margin: 1.875rem 0 0;
     font-style: normal;
     line-height: 2.05;
     letter-spacing: normal;
-    font-size: 1.375rem;
+    font-size: 2rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: bolder;
+    margin-top: 2rem;
 }
 
 
 .contenido_debilidades {
-    color: #54585a;
-    text-align: center;
-    font-size: 1rem;
-    margin: 0.5rem 0 0;
+    font-family: OpenSans;
+        font-size: 1.4rem;
+        color: #54585a;
+        font-weight: 100;
+        line-height: 1.5;
+        text-align: center;
+        margin: 2rem 3.5rem 0 3.5rem;
 }
 
-.p4_contenido_debilidades {
-    padding: 0.5rem 0;
+@media all and (min-width:768px) {
+
+    .container_section2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+   
 }
+
+@media all and (min-width:1200px) {
+
+    .contenido_equipo {
+        margin: 2rem 30rem 0 20rem;
+    }
+
+    .contenido_fortalezas {
+        margin: 2rem 5rem 0 5rem;
+    }
+
+    .contenido_debilidades {
+    margin: 2rem 5rem 0 5rem;
+    }              
+}
+
