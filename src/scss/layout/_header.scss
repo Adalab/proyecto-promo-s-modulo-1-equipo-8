@@ -23,6 +23,7 @@
     line-height: 3rem;
     color: var(--white);
     letter-spacing: 3rem;
+    margin-left: 2rem;
    
 }
 
@@ -33,6 +34,11 @@
     text-align: end;
     padding: 0.8rem 1.7rem 0.7rem 1.6rem;
 }
+
+.lista {
+    margin-right: 2rem;
+}
+
 
 .menu {
     width: 100%;
@@ -93,14 +99,28 @@
     .nav-header {
         background-color: rgba(9, 157, 141, 0.9);
         border: solid 2rem rgba(9, 157, 141, 0.9);
+    }
+
+    .lista {
+        margin-right: 0;
+
+    }
+
+    .text_hero {
+
+        margin-right: 22rem;
+        padding: 3rem 9rem;
+        background-color: rgba(255, 255, 255,0.6);
+        border: 0;
+    }
     
-
-        
-
 }
-    
 
+@media (min-width:1200px) {
 
-
+    .text_hero {
+        font-size: 3rem;
+        margin-right: 45rem;
+    }
 }
 
