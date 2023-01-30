@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?      family=Open+Sans:wght@400;600&family=Rubik&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>Nuestra página web</title>
+
+</head>
+
+<body>
+
+    <include src="partials/header.html"></include>
+
+    <main>
+        <section class="section_1">
+
+            <h2 class="contacto" id="contacto">CONTACTO</h2>
+
+            <article class="article_contacto">
+
+                <p class="p_contacto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                    blanditiis,
+                    exercitationem soluta
+                    dolor est facere ipsam deserunt architecto facilis quam eius animi incidunt unde id quisquam
+                    reprehenderit nam rerum odio.</p>
+                <p class="obligatorio">
+                    Todos los campos marcados con <span class="asterisco">* </span>son obligatorios
+                </p>
+
+            </article>
+
+
+        </section>
+
+        <section class="section_2">
+
+            <form class="form" action="">
+
+                <label class="container_label personal " for="Nombre"> Nombre completo<span class="asterisco">*
+                    </span>:
+                    <input class="container_label_item nombre" name="Nombre" id="Nombre" type="text"
+                        placeholder="Ej.: Shushanik Hovhannisyan">
+
+                </label>
+
+                <fieldset class="fieldset">
+                    <label class="container_label personal" for="Email"> Email <span class="asterisco">*</span>:
+                        <input class="container_label_item email" name="Email" id="Email" type="email"
+                            placeholder="Ej.: nombre.apellidos@mail.com">
+                    </label>
+
+                    <label class="container_label personal" for="Teléfono"> Teléfono<span class="asterisco">*</span>:
+                        <input class="container_label_item teléfono" name="Teléfono" id="Teléfono" type="text"
+                            placeholder="Ej.:123456789">
+                    </label>
+                </fieldset>
+
+                <label class="container_label mensaje" for="Mensaje"> Mensaje :
+                    <input class="container_label_item mensaje" name="Mensaje" id="Mensaje" type="text"
+                        placeholder="¿Qué necesitas?">
+                </label>
+
+                <input class="button" type="submit" value="Enviar">
+
+            </form>
+
+
+        </section>
+
+    </main>
+
+    <include src="./partials/footer.html"></include>
+
+</body>
+
+
+</html>
